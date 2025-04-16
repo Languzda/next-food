@@ -3,7 +3,7 @@ import classes from "./MealsGrid.module.css";
 
 const MealsGrid = ({ meals }) => {
   return (
-    <ul className={classes.grid}>
+    <ul className={classes.meals}>
       {meals.map((meal) => (
         <li key={meal.id}>
           <MealItem {...meal} />
